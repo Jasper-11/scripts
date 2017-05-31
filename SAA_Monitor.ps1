@@ -242,6 +242,8 @@ foreach ($line in $swiftLog){
         $logEntryObj | Add-Member -type NoteProperty -Name $line[0].Trim() -Value $line[1].Trim()
     }
 }
+# Add last log entry to array
+$logArray += $logEntryObj
 
 # Confirm that all $verificationMessages are represented within the retrieved log
 $visibleLog = $logArray | select -Property 'Display Text'

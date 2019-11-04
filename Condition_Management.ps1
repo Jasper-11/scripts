@@ -5,7 +5,7 @@
 # The script will then post any of these if they commence with '#' as these are maybe conditions.
 # The script will then email out a list of all the remaining 'manual' conditions that can't possibly be satisfied on the AJF.
 #
-# Author: JooBear
+# Author: Jasper
 # 
 # Usage:
 # .\Condition_Management.ps1
